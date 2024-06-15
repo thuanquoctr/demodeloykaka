@@ -7,8 +7,6 @@ export const HomePage: React.FC = () => {
   const [listbook, setbook] = useState<book[]>([
     { id: 1, name: "thuan1", description: "mot" },
     { id: 2, name: "thuan2", description: "hai" },
-    { id: 3, name: "thuan3", description: "ba" },
-    { id: 4, name: "thuan4", description: "bon" },
     { id: 5, name: "thuan5", description: "nam" },
   ]);
 
